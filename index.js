@@ -28,6 +28,6 @@ class Bird {
   this.sex = sex;
   }
   speak() {
-    return `${this.name} says squak`;
+    return `${this.name} says squawk`;
   }
 }
