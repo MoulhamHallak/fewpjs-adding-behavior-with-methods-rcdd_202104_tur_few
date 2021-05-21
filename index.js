@@ -6,11 +6,11 @@ class Cat {
     this.sex = sex;
   }
   speak() {
-    return `${this.name} says meow`;
+    return `${this.name} says meow!`;
   }
 }
 
-let cat = new Cat(100.24, '03/04/2018', 'Grocery Shopping');
+// let cat = new Cat(100.24, '03/04/2018', 'Grocery Shopping');
  
 class Dog {
   constructor(name, sex) {
