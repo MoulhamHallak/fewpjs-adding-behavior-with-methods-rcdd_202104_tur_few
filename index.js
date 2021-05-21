@@ -10,7 +10,7 @@ class Cat {
   }
 }
 
-let transaction = new Transaction(100.24, '03/04/2018', 'Grocery Shopping');
+let cat = new Cat(100.24, '03/04/2018', 'Grocery Shopping');
  
 class Dog {
   constructor(name, sex) {
